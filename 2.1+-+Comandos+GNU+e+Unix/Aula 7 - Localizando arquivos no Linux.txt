@@ -1,0 +1,95 @@
+// Aula 7 - Localizando arquivos no Linux
+
+# cat /etc/updatedb.conf
+
+Se não tiver instalado, instale antes:
+
+	$ sudo yum install mlocate    [On CentOS/RHEL]
+	$ sudo apt install mlocate    [On Debian/Ubuntu] 
+
+$ locate .bashrc
+
+# locate .bashrc
+
+$ locate dir_color
+
+$ locate -i dir_color
+
+$ locate services
+
+$ locate services | grep Makefile
+
+$ find
+$ find /etc
+# find /etc
+$ find $HOME -ls
+
+# find /etc -name passwd
+
+# find /etc -iname '*passwd*'
+
+$ find /usr/share/ -size +10M
+
+$ find /etc -size -1M
+
+$ find / -size +500M -size -5G -exec du -sh {} \;
+
+$ find /home -user mz2 -ls
+
+# find /home \( -user mz2 -or -root \) -ls
+
+# find /etc -group ntp -ls
+
+# find /var/spool -not -user root -ls
+
+$ find /usr/bin -perm 755 -ls
+
+$ find /home/mz2/ -perm -222 -type d -ls
+
+$ find /mz2 -perm /222 -type f
+
+$ find . -perm -002 -type f -ls
+
+$ find /etc/ -mmin -10
+
+$ find /bin /usr/bin /sbin /usr/sbin -ctime -3
+
+$ find /var/tmp /var/log -atime +10
+
+$ find [OPÇÕES] -exec comando {} \;
+$ find [OPÇÕES] -ok comando {} \;
+
+$ find /etc -iname passwd -exec echo "Eu encontrei {}" \;
+
+$ find /usr/share -size +5M -exec du {} \; | sort -nr
+
+$ grep vboxd /etc/services
+
+$ grep -i vboxd /etc/services
+
+$ grep -vi tcp /etc/services
+
+$ grep -rli peerdns /usr/share/doc/
+
+$ grep -ri --color root /etc/systemd/
+
+$ ip addr show | grep inet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

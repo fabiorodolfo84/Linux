@@ -1,0 +1,69 @@
+// Aula 6 - Usando metacaracteres e operadores
+
+$ touch maça banana uva laranja limão
+
+$ ls m*
+
+$ ls l*
+
+$ ls b*a
+
+$ ls *n*
+
+$ ls *a*
+
+$ ls ???a
+
+$ ls b????a*
+
+$ ls [a-n]*
+
+$ mail root < ~/.bashrc
+$ man chmod | col -b > /tmp/chmod
+$ echo "Eu terminei o projeto em $(date)" >> ~/projects
+
+# mail 
+
+$ cat /tmp/chmod
+
+$ cat ~/projects
+
+# mail root user1 user2 user3 << thetext
+
+Quero dizer a todos que haverá 10 horas da manhã.
+reunião na sala de conferência B. Todos devem comparecer.
+- Vitor
+thetext
+
+mail
+
+/bin/ed /etc/resolv.conf <<resendit
+a
+nameserver 8.8.8.8
+.
+w
+q
+resendit
+
+$ cat /etc/resolv.conf
+
+$ touch memo{1,2,3,4,5}
+
+$ ls
+
+$ touch {John,Bill,Sally}-{Breakfast,Lunch,Dinner}
+
+$ ls
+
+$ rm -f {John,Bill,Sally}-{Breakfast,Lunch,Dinner}
+
+$ touch {a..f}{1..5}
+
+$ ls
+
+
+
+
+
+
+

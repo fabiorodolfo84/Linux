@@ -1,0 +1,91 @@
+// Aula 8 - Trabalhando com o comando Tar
+
+# tar -cvf mz2.tar /home/mz2
+
+# tar -cvzf mz2.tar.gz /home/mz2
+
+# tar -cvzf mz2.tgz /home/mz2
+
+# ls -lah | grep mz2
+
+# tar -cvjf mz2.tar.bz2 /home/mz2
+
+# tar -xvf mz2.tar
+
+# tar -xvf mz2.tar -C /tmp
+
+# tar -xvf mz2.tar.gz
+
+# tar -xvf mz2.tar.gz -C /tmp
+
+# tar -xvf mz2.tar.bz2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

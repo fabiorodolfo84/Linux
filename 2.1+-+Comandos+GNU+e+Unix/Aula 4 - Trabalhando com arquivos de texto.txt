@@ -1,0 +1,71 @@
+// Aula 3 - Trabalhando com arquivos de texto
+
+# less /etc/passwd
+
+/root
+
+Para sair:
+
+q
+
+# ps aux | less
+
+Para sair 
+
+q
+
+# tail -f /var/log/messages
+
+# tail -n 2 /etc/passwd
+
+# head -n 5 /etc/passwd
+
+# cut -f 1 -d : /etc/passwd
+
+# ps aux | grep ssh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

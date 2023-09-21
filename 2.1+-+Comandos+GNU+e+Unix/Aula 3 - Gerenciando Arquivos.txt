@@ -1,0 +1,124 @@
+// Gerenciando Arquivos
+
+# cd 
+
+em seguida 
+
+# pwd
+
+# touch arquivo1
+
+cd /
+
+# touch arquivo2
+
+# mkdir arquivos
+
+# mkdir /home/$USER/arquivos
+
+# rmdir arquivos
+
+Ou 
+
+# mkdir  arquivos
+
+# ls -l 
+
+# ls -a 
+
+# ls -lrt 
+
+# ls -d 
+
+# ls -R 
+
+# touch .oculto
+
+# ls
+
+# ls -a
+
+# rm 
+
+# rm -rf
+
+# cd 
+
+# mkdir ~/test
+
+# cp /etc/[a-e]* ~/test
+
+# ln -s test link
+
+# cd link
+
+# rm link
+
+# ls -l
+
+# ln -s test link
+
+# rm -rf link/
+
+# ls
+
+# ls test/ 
+
+# tar -cvf /root/homes.tar /home
+
+# tar -rvf /root/homes.tar /etc/hosts
+
+# tar -tvf /root/homes.tar
+
+# tar -xvf /root/homes.tar
+
+# tar -xvf homes.tar -C /tmp
+
+# gzip homes.tar
+
+# ls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

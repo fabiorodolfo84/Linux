@@ -1,0 +1,72 @@
+// Aula 8 - Arquivos no Linux
+
+Nessa aula, vamos trabalhar com Arquivos e diretórios em nosso Linux
+
+Arquivo é onde gravamos nossos dados. Um arquivo pode conter um texto feito por nós, uma música, programa, planilha, etc.
+
+Cada arquivo deve ser identificado por um nome, assim ele pode ser encontrado facilmente quando desejar usa-lo. 
+
+Se estiver fazendo um trabalho de história, nada melhor que salva-lo com o nome historia. 
+
+Um arquivo pode ser binário ou texto 
+
+O GNU/Linux é "Case Sensitive" ou seja, ele diferencia letras maiúsculas e minúsculas nos arquivos e diretórios em nosso sistema.
+
+O arquivo "historia" é completamente diferente de "Historia". 
+
+Esta regra também é válida para os todos os comandos e diretórios. 
+
+Prefira, sempre que possível, usar letras minúsculas para identificar seus arquivos, pois quase todos os comandos do sistema estão em minúsculas.
+
+Um arquivo oculto no GNU/Linux é identificado por um “.” no inicio do nome (por exemplo, .bashrc). 
+
+Arquivos ocultos não aparecem em listagens normais de diretórios, deve ser usado o comando 
+
+# ls -a 
+
+para também listar arquivos ocultos.
+
+A extensão serve para identificar o tipo do arquivo. A extensão são as letras após um “.” no
+nome de um arquivo, explicando melhor:
+
+• relatório.txt - O .txt indica que o conteúdo é um arquivo texto.
+• script.sh - Arquivo de Script (interpretado por "/bin/sh").
+• system.log - Registro de algum programa no sistema.
+• arquivo.gz - Arquivo compactado pelo utilitário "gzip".
+• index.html - Página de Internet (formato Hypertexto).
+
+Agora vamos ver o Tamanho de arquivos:
+
+A unidade de medida padrão nos computadores é o bit. 
+
+A um conjunto de 8 bits nós chamamos de byte. 
+
+Cada arquivo/diretório possui um tamanho, que indica o espaço que ele ocupa no disco e isto é medido em bytes. O byte representa uma letra. Assim, se você criar um arquivo vazio e escrever o nome Linux e salvar o arquivo, este terá o tamanho de 5 bytes. Espaços em branco e novas linhas também ocupam bytes.
+
+Para vermos o seu tamanho usamos o comando "du" para isso:
+
+du --help
+
+du /home
+
+Você verá que a saída desse comando será gigantesca, listando todos os diretório acessíveis com a permissão do seu usuário (seja o normal ou o root). Para simplificarmos isso, podemos deixar mais legíviel:
+
+du -h /home 
+
+Se você quiser exibir apenas o tamanho total, use também o parâmetro “-s” de “summarize”. Ele pode ser escrito de diversas formas, veja:
+
+du -h -s /home
+
+du -hs /home
+
+du -sh /home 
+
+
+
+
+
+
+
+
+
+

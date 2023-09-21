@@ -1,0 +1,23 @@
+// Aula 9 - Compreendendo o serviço Cron - Parte 2
+
+Continuação da aula anterior:
+
+Vamos aprender a listar os Conteúdos de um Arquivo no Linux
+
+Depois que o arquivo tiver sido construído, você pode listar seus conteúdos com o comando:
+
+# tar -tvf mz2.tar
+
+https://www.hostinger.com.br/tutoriais/comando-tar-linux/
+
+
+
+
+
+
+
+
+
+
+
+
