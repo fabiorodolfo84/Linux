@@ -1,0 +1,29 @@
+// Aula 3 - Gerenciando as contas de grupo
+
+# groupadd vendas
+
+# groupadd -g 325 marketing
+
+# groupmod -g 330 marketing
+
+# groupmod -n vendedores vendas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

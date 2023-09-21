@@ -1,0 +1,31 @@
+// Aula 1 - Criando contas de usuários no Ubuntu
+
+# useradd -c "Joao Alves" joao
+
+# passwd joao
+
+# useradd joao2
+
+# useradd -g users -G users -s /bin/bash -c "Joao Alves3" joao3
+
+# tail /etc/passwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+// Aula 2 - Alterando usuários
+
+# usermod
+
+# usermod -s /bin/csh joao
+
+# usermod -Ga vendas,marketing, joao
+
+# userdel -r joao
+
+# userdel joao
+
+
+# find / -user joao -ls
+
+
+
+
+
+
+
+
+
+
