@@ -1,0 +1,46 @@
+// Aula 7 - Gerenciando os processos por linha de comando
+
+# ps aux | head
+
+# ps -ef
+
+# ps fax
+
+# dd if=/dev/zero of=/dev/null &
+
+# renice -n 5 PID
+
+# kill -9 <PID>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+// Aula 3 - Gerenciamento de processos Background e Foreground
+
+$ find /usr > /tmp/allusrfiles &
+
+$ sleep 10000 &
+
+$ jobs
+
+$ fg %1
+
+$ fg %2
+
+$ bg %1
+
+$ kill %2
+
+$ sudo ps -aux | less
+
+# ps aux | more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

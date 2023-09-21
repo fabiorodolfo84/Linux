@@ -1,0 +1,43 @@
+// Aula 4 - Gerenciamento de processos com pstree e pgrep
+
+# pstree
+
+# pstree -np
+
+# pstree -s 37
+
+# pstree vitor
+
+# pgrep -u root ssh
+
+# pgrep -l ssh
+
+# pgrep ssh -d' '
+
+# pgrep -f ssh
+
+# pgrep -lnu root
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

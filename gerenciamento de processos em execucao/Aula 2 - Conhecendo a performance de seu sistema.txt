@@ -1,0 +1,43 @@
+// Aula 1 - Conhecendo a performance de seu sistema
+
+# top
+
+# free -m
+
+# swapon -s
+
+# vmstat 2 5 
+
+# yum install sysstat
+
+# iostat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+// Aula 5 - Gerenciamento de processos com 'uptime' e 'screen'
+
+# screen --version
+
+# sudo apt install screen  (Ubuntu/Debian)
+
+# sudo yum install screen
+
+$ screen
+
+Ctrl + a?
+
+$ exit
+
+# screen -S teste
+
+Ctrl+a d
+
+# screen -r
+
+# screen -ls
+
+# screen -r 10835
+
+# vim /etc/screenrc
+
+# uptime 
+
+# uptime -p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
