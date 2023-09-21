@@ -1,0 +1,51 @@
+// Aula 8 - Recuperando comandos
+
+# history 
+
+$ ls /usr/bin | sort -f | less
+
+$ history 8
+
+$ !2007
+
+$ !!
+
+!?string? - Isso executa o comando mais recente que contém uma sequência específica de caracteres.
+
+$ !?dat?
+
+
+vim .bashrc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+// Aula 6 - Gerenciando os Jobs Shell
+
+
+# sleep 3600 & dd if=/dev/zero of=/dev/null & sleep 7200
+
+# jobs 
+
+# bg 3
+
+# fg 1
+
+# Ctrl+C 
+
+# jobs
+
+# fg 2
+
+# fg 3
+
+# dd if=/dev/zero of=/dev/null &
+
+# exit
+
+# top
+
+# kill ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

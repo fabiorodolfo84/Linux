@@ -1,0 +1,89 @@
+// Aula 3 - Variaveis Locais e de Ambiente
+
+# LOCAL="nao usar o export"
+
+# export GLOBAL="usar com export"
+
+# magica="abraalakazam"
+
+# echo $magica
+
+# set
+
+# clear
+
+# env
+
+# bash
+
+# echo $magica
+
+/etc/profile
+
+/etc/environment
+
+.bashrc
+
+.bash_profile
+
+.bash.login
+
+.profile
+
+# echo $EDITOR
+
+# export EDITOR=nano
+
+# vipw
+
+# export EDITOR=vim
+
+# vipw
+
+# echo $PATH
+
+# su mz2
+
+# echo $PATH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

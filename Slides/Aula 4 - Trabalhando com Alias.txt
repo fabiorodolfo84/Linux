@@ -1,0 +1,100 @@
+// Aula 4 - Trabalhando com Alias
+
+# ls --color -h -l
+
+ls 
+
+# ls --color -h -l 
+
+# alias ls='ls --color -h -l'
+
+# ls /
+
+# clear
+
+# alias c='clear'
+
+# c
+
+# alias
+
+# alias c
+
+/etc/profile
+
+~/.bashrc
+
+~/.profile
+
+~/.bash_login
+
+vim ~/.bashrc
+
+alias c='clear'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

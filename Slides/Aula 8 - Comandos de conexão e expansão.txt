@@ -1,0 +1,45 @@
+// Aula 9 - Comandos de conexão e expansão
+
+$ cat /etc/passwd | sort | less
+
+$ gunzip < /usr/share/man/man1/grep.1.gz | nroff -c -man | less
+
+$ sudo apt update ; sudo apt dist-upgrade ; sudo apt install samba
+
+$ command &
+
+$ tar -czf home.tar.gz . &
+
+$ command > /dev/null 2>&1 & 
+
+$ jobs -l
+
+$ vim $(find /home | grep mz2)
+
+$ echo "Eu tenho $[2020 - 1957] anos de idade."
+
+$ echo "Há $(ls | wc -w) arquivos nesse diretório."
+
+$ ls | wc -w
+
+$ ls -l $BASH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

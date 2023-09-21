@@ -1,0 +1,81 @@
+// Aula 10 - Obtendo Informações Sobre Comandos
+
+Quando você começa a usar o shell, ele pode ser intimidador. 
+
+Tudo o que você vê é um prompt. Como você sabe quais comandos estão disponíveis, quais opções eles usam ou como usar os recursos avançados?
+
+Felizmente, muita ajuda está disponível. Aqui estão alguns lugares que você pode procurar para complementar o que aprendeu neste capítulo:
+
+Verifique o PATH. Digite:
+
+$ echo $PATH
+
+Você vê uma lista dos diretórios que contêm comandos que são imediatamente acessíveis a você. 
+
+A listagem do conteúdo desses diretórios exibe a maioria dos comandos padrão do Linux. Por exemplo:
+
+$ ls /bin
+
+Use o comando 'help'. Alguns comandos são construídos no shell, portanto, eles não aparecem em um diretório. O comando 'help' lista esses comandos e mostra as opções disponíveis com cada um deles.
+
+Digite o comando para percorrer a lista:
+
+$ help | less 
+
+Para obter ajuda com um comando interno específico, digite o comando 'help', substituindo command pelo nome que lhe interessa. 
+
+O comando 'help' funciona apenas com o shell bash.
+
+Use --help com o comando Muitos comandos incluem uma opção --help que você pode usar para obter informações sobre como o comando é usado.
+
+Por exemplo, se você inserir:
+
+$ date --help | less
+
+A saída mostra não apenas opções, mas também formatos de hora que você pode usar com o comando date. 
+
+Outros comandos simplesmente usam uma opção -h, como: fdisk -h
+
+Use o comando:
+
+$ info. 
+
+O comando 'info' é outra ferramenta para exibir informações sobre comandos do shell. 
+
+Ele pode se mover entre uma hierarquia de nós para encontrar informações sobre comandos e outros itens. 
+
+Nem todos os comandos têm informações disponíveis no banco de dados de informações, mas às vezes mais informações podem ser encontradas lá do que em uma página de manual.
+
+Então, temos o comando man:
+
+$ man
+
+Para saber mais sobre um comando específico, digite o comando man. (Substitua comando pelo nome que você deseja.) 
+
+Uma descrição do comando e suas opções são exibidas na tela.
+
+As páginas de manual são o meio mais comum de obter informações sobre comandos e outros componentes básicos de um sistema Linux. 
+
+Cada página do manual se enquadra em uma das categorias listadas na Tabela 3.8. Como usuário regular, você estará mais interessado nas páginas de manual na seção 1.
+
+Como administrador do sistema, você também estará interessado nas seções 5 e 8 e, ocasionalmente, na seção 4. Os programadores estarão interessados nas seções 2 e 3 das páginas de manual.
+
+As opções do comando man permitem pesquisar no banco de dados da página de manual ou exibir as páginas de manual na tela. Aqui estão alguns exemplos de comandos e opções do man:
+
+$ man -k passwd
+
+Usando a opção '-k', é possível pesquisar as seções de nome e resumo de todas as páginas de manual instaladas no sistema. 
+
+Existem cerca de uma dúzia de páginas de manual que incluem "passwd" no nome ou na descrição de um comando.
+
+$ man passwd
+$ man 5 passwd
+
+Digamos que as duas páginas de manual nas quais estou interessado sejam o comando passwd (na seção 1 das páginas de manual) e o arquivo passwd (na seção 5) as páginas de manual. 
+
+Como apenas digitar man passwd exibe a página da seção 1, preciso solicitar explicitamente a página do manual da seção 5, se quiser ver isso (man 5 passwd).
+
+
+
+
+
